@@ -1,0 +1,273 @@
+2020-12-07T22:29:05.626Z Server running on port 3005
+2020-12-07T22:29:07.203Z /services- GET RESPONSE - 200
+2020-12-07T22:29:08.870Z /services- GET RESPONSE - 200
+2020-12-07T22:29:10.826Z /service - POST RESPONSE - 200
+2020-12-07T22:29:11.871Z /services- GET RESPONSE - 200
+2020-12-07T22:29:12.451Z /services- GET RESPONSE - 200
+2020-12-07T22:29:16.075Z /service - POST RESPONSE - 200
+2020-12-07T22:29:16.076Z /services- GET RESPONSE - 200
+2020-12-07T22:29:17.597Z /services- GET RESPONSE - 200
+2020-12-07T22:29:23.501Z /services- GET RESPONSE - 200
+2020-12-07T22:29:25.330Z /services- GET RESPONSE - 200
+2020-12-07T22:29:25.351Z /service - POST RESPONSE - 200
+2020-12-07T22:29:25.819Z /service - POST RESPONSE - 200
+2020-12-07T22:29:26.870Z /services- GET RESPONSE - 200
+2020-12-07T22:29:31.075Z /service - POST RESPONSE - 200
+2020-12-07T22:29:31.076Z /services- GET RESPONSE - 200
+2020-12-07T22:29:37.343Z /services- GET RESPONSE - 200
+2020-12-07T22:29:37.364Z /service - POST RESPONSE - 200
+2020-12-07T22:29:40.819Z /service - POST RESPONSE - 200
+2020-12-07T22:29:42.877Z /services- GET RESPONSE - 200
+2020-12-07T22:29:46.076Z http://localhost:3001 Controller REMOVED
+2020-12-07T22:29:46.076Z Server status has expired - Controller http://localhost:3001
+2020-12-07T22:29:46.076Z Fetching status from - Controller http://localhost:3001
+2020-12-07T22:29:46.076Z HTTP POST  http://localhost:3001/status
+2020-12-07T22:29:46.082Z HTTP GET http://localhost:3001/status
+2020-12-07T22:29:46.082Z Server status updated - Controller http://localhost:3001
+2020-12-07T22:29:46.082Z /service - POST RESPONSE - 200
+2020-12-07T22:29:46.083Z /services- GET RESPONSE - 200
+2020-12-07T22:29:46.087Z SERVER STATUS: 200
+2020-12-07T22:29:52.344Z /services- GET RESPONSE - 200
+2020-12-07T22:29:55.825Z http://localhost:3000 View REMOVED
+2020-12-07T22:29:55.825Z Server status has expired - View http://localhost:3000
+2020-12-07T22:29:55.825Z Fetching status from - View http://localhost:3000
+2020-12-07T22:29:55.825Z HTTP POST  http://localhost:3000/status
+2020-12-07T22:29:55.826Z HTTP GET http://localhost:3000/status
+2020-12-07T22:29:55.826Z Server status updated - View http://localhost:3000
+2020-12-07T22:29:55.826Z http://localhost:3003 Model REMOVED
+2020-12-07T22:29:55.826Z Server status has expired - Model http://localhost:3003
+2020-12-07T22:29:55.826Z Fetching status from - Model http://localhost:3003
+2020-12-07T22:29:55.826Z HTTP POST  http://localhost:3003/status
+2020-12-07T22:29:55.827Z HTTP GET http://localhost:3003/status
+2020-12-07T22:29:55.827Z Server status updated - Model http://localhost:3003
+2020-12-07T22:29:55.827Z /service - POST RESPONSE - 200
+2020-12-07T22:29:55.829Z SERVER STATUS: 200
+2020-12-07T22:29:55.831Z SERVER STATUS: 200
+2020-12-07T22:29:57.877Z /services- GET RESPONSE - 200
+2020-12-07T22:29:59.750Z /services- GET RESPONSE - 200
+2020-12-07T22:30:01.667Z http://localhost:3001 Controller REMOVED
+2020-12-07T22:30:01.667Z Server status has expired - Controller http://localhost:3001
+2020-12-07T22:30:01.667Z Fetching status from - Controller http://localhost:3001
+2020-12-07T22:30:01.668Z HTTP POST  http://localhost:3001/status
+2020-12-07T22:30:01.668Z HTTP GET http://localhost:3001/status
+2020-12-07T22:30:01.668Z Server status updated - Controller http://localhost:3001
+2020-12-07T22:30:01.669Z /services- GET RESPONSE - 200
+2020-12-07T22:30:01.671Z Service not available http://localhost:3001
+FetchError: request to http://localhost:3001/status failed, reason: connect ECONNREFUSED 127.0.0.1:3001
+    at ClientRequest.<anonymous> (/home/hjoo/distributed_systems/node_modules/node-fetch/lib/index.js:1461:11)
+    at ClientRequest.emit (node:events:329:20)
+    at Socket.socketErrorListener (node:_http_client:478:9)
+    at Socket.emit (node:events:329:20)
+    at emitErrorNT (node:internal/streams/destroy:188:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:153:3)
+    at processTicksAndRejections (node:internal/process/task_queues:80:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+2020-12-07T22:30:07.350Z /services- GET RESPONSE - 200
+2020-12-07T22:30:10.841Z http://localhost:3003 Model REMOVED
+2020-12-07T22:30:10.841Z Server status has expired - Model http://localhost:3003
+2020-12-07T22:30:10.841Z Fetching status from - Model http://localhost:3003
+2020-12-07T22:30:10.841Z HTTP POST  http://localhost:3003/status
+2020-12-07T22:30:10.842Z HTTP GET http://localhost:3003/status
+2020-12-07T22:30:10.842Z Server status updated - Model http://localhost:3003
+2020-12-07T22:30:10.842Z http://localhost:3000 View REMOVED
+2020-12-07T22:30:10.842Z Server status has expired - View http://localhost:3000
+2020-12-07T22:30:10.842Z Fetching status from - View http://localhost:3000
+2020-12-07T22:30:10.842Z HTTP POST  http://localhost:3000/status
+2020-12-07T22:30:10.842Z HTTP GET http://localhost:3000/status
+2020-12-07T22:30:10.843Z Server status updated - View http://localhost:3000
+2020-12-07T22:30:10.843Z /service - POST RESPONSE - 200
+2020-12-07T22:30:10.846Z SERVER STATUS: 200
+2020-12-07T22:30:10.848Z SERVER STATUS: 200
+2020-12-07T22:30:12.207Z /services- GET RESPONSE - 200
+2020-12-07T22:30:12.233Z /service - POST RESPONSE - 200
+2020-12-07T22:30:13.876Z /services- GET RESPONSE - 200
+2020-12-07T22:30:14.415Z /service - POST RESPONSE - 200
+2020-12-07T22:30:14.416Z /services- GET RESPONSE - 200
+2020-12-07T22:30:19.158Z /service - POST RESPONSE - 200
+2020-12-07T22:30:19.158Z /services- GET RESPONSE - 200
+2020-12-07T22:30:23.199Z /services- GET RESPONSE - 200
+2020-12-07T22:30:25.362Z /services- GET RESPONSE - 200
+2020-12-07T22:30:25.387Z /service - POST RESPONSE - 200
+2020-12-07T22:30:25.844Z /service - POST RESPONSE - 200
+2020-12-07T22:30:26.756Z /service - POST RESPONSE - 200
+2020-12-07T22:30:26.757Z /services- GET RESPONSE - 200
+2020-12-07T22:30:28.870Z /services- GET RESPONSE - 200
+2020-12-07T22:30:30.724Z /services- GET RESPONSE - 200
+2020-12-07T22:30:30.745Z /service - POST RESPONSE - 200
+2020-12-07T22:30:34.116Z /service - POST RESPONSE - 200
+2020-12-07T22:30:34.117Z /services- GET RESPONSE - 200
+2020-12-07T22:30:34.156Z /service - POST RESPONSE - 200
+2020-12-07T22:30:34.156Z /services- GET RESPONSE - 200
+2020-12-07T22:30:39.966Z /services- GET RESPONSE - 200
+2020-12-07T22:30:40.846Z http://localhost:3003 Model REMOVED
+2020-12-07T22:30:40.846Z Server status has expired - Model http://localhost:3003
+2020-12-07T22:30:40.847Z Fetching status from - Model http://localhost:3003
+2020-12-07T22:30:40.847Z HTTP POST  http://localhost:3003/status
+2020-12-07T22:30:40.848Z HTTP GET http://localhost:3003/status
+2020-12-07T22:30:40.848Z Server status updated - Model http://localhost:3003
+2020-12-07T22:30:40.848Z /service - POST RESPONSE - 200
+2020-12-07T22:30:40.853Z SERVER STATUS: 200
+2020-12-07T22:30:43.884Z /services- GET RESPONSE - 200
+2020-12-07T22:30:45.727Z /services- GET RESPONSE - 200
+2020-12-07T22:30:48.018Z http://localhost:3000 View REMOVED
+2020-12-07T22:30:48.018Z Server status has expired - View http://localhost:3000
+2020-12-07T22:30:48.018Z Fetching status from - View http://localhost:3000
+2020-12-07T22:30:48.018Z HTTP POST  http://localhost:3000/status
+2020-12-07T22:30:48.019Z HTTP GET http://localhost:3000/status
+2020-12-07T22:30:48.019Z Server status updated - View http://localhost:3000
+2020-12-07T22:30:48.020Z /services- GET RESPONSE - 200
+2020-12-07T22:30:48.022Z SERVER STATUS: 200
+2020-12-07T22:30:48.037Z /service - POST RESPONSE - 200
+2020-12-07T22:30:49.111Z /service - POST RESPONSE - 200
+2020-12-07T22:30:49.111Z /services- GET RESPONSE - 200
+2020-12-07T22:30:49.162Z http://localhost:3001 Controller REMOVED
+2020-12-07T22:30:49.162Z Server status has expired - Controller http://localhost:3001
+2020-12-07T22:30:49.162Z Fetching status from - Controller http://localhost:3001
+2020-12-07T22:30:49.162Z HTTP POST  http://localhost:3001/status
+2020-12-07T22:30:49.163Z HTTP GET http://localhost:3001/status
+2020-12-07T22:30:49.163Z Server status updated - Controller http://localhost:3001
+2020-12-07T22:30:49.164Z /service - POST RESPONSE - 200
+2020-12-07T22:30:49.166Z /services- GET RESPONSE - 200
+2020-12-07T22:30:49.173Z SERVER STATUS: 200
+2020-12-07T22:30:55.846Z /service - POST RESPONSE - 200
+2020-12-07T22:30:59.872Z /services- GET RESPONSE - 200
+2020-12-07T22:31:00.615Z /services- GET RESPONSE - 200
+2020-12-07T22:31:03.868Z http://localhost:3000 View REMOVED
+2020-12-07T22:31:03.868Z Server status has expired - View http://localhost:3000
+2020-12-07T22:31:03.868Z Fetching status from - View http://localhost:3000
+2020-12-07T22:31:03.868Z HTTP POST  http://localhost:3000/status
+2020-12-07T22:31:03.869Z HTTP GET http://localhost:3000/status
+2020-12-07T22:31:03.869Z Server status updated - View http://localhost:3000
+2020-12-07T22:31:03.869Z /services- GET RESPONSE - 200
+2020-12-07T22:31:03.873Z SERVER STATUS: 200
+2020-12-07T22:31:04.112Z http://localhost:3002 Controller REMOVED
+2020-12-07T22:31:04.112Z Server status has expired - Controller http://localhost:3002
+2020-12-07T22:31:04.112Z Fetching status from - Controller http://localhost:3002
+2020-12-07T22:31:04.112Z HTTP POST  http://localhost:3002/status
+2020-12-07T22:31:04.112Z HTTP GET http://localhost:3002/status
+2020-12-07T22:31:04.112Z Server status updated - Controller http://localhost:3002
+2020-12-07T22:31:04.112Z /service - POST RESPONSE - 200
+2020-12-07T22:31:04.113Z /services- GET RESPONSE - 200
+2020-12-07T22:31:04.115Z SERVER STATUS: 200
+2020-12-07T22:31:08.420Z http://localhost:3001 Controller REMOVED
+2020-12-07T22:31:08.420Z Server status has expired - Controller http://localhost:3001
+2020-12-07T22:31:08.420Z Fetching status from - Controller http://localhost:3001
+2020-12-07T22:31:08.420Z HTTP POST  http://localhost:3001/status
+2020-12-07T22:31:08.420Z HTTP GET http://localhost:3001/status
+2020-12-07T22:31:08.420Z Server status updated - Controller http://localhost:3001
+2020-12-07T22:31:08.421Z /services- GET RESPONSE - 200
+2020-12-07T22:31:08.421Z Service not available http://localhost:3001
+FetchError: request to http://localhost:3001/status failed, reason: connect ECONNREFUSED 127.0.0.1:3001
+    at ClientRequest.<anonymous> (/home/hjoo/distributed_systems/node_modules/node-fetch/lib/index.js:1461:11)
+    at ClientRequest.emit (node:events:329:20)
+    at Socket.socketErrorListener (node:_http_client:478:9)
+    at Socket.emit (node:events:329:20)
+    at emitErrorNT (node:internal/streams/destroy:188:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:153:3)
+    at processTicksAndRejections (node:internal/process/task_queues:80:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+2020-12-07T22:31:10.849Z http://localhost:3003 Model REMOVED
+2020-12-07T22:31:10.849Z Server status has expired - Model http://localhost:3003
+2020-12-07T22:31:10.849Z Fetching status from - Model http://localhost:3003
+2020-12-07T22:31:10.849Z HTTP POST  http://localhost:3003/status
+2020-12-07T22:31:10.850Z HTTP GET http://localhost:3003/status
+2020-12-07T22:31:10.852Z Server status updated - Model http://localhost:3003
+2020-12-07T22:31:10.853Z /service - POST RESPONSE - 200
+2020-12-07T22:31:10.860Z SERVER STATUS: 200
+2020-12-07T22:31:12.792Z /services- GET RESPONSE - 200
+2020-12-07T22:31:12.808Z /service - POST RESPONSE - 200
+2020-12-07T22:31:14.875Z /services- GET RESPONSE - 200
+2020-12-07T22:31:19.112Z /service - POST RESPONSE - 200
+2020-12-07T22:31:19.113Z /services- GET RESPONSE - 200
+2020-12-07T22:31:19.959Z /services- GET RESPONSE - 200
+2020-12-07T22:31:19.980Z /service - POST RESPONSE - 200
+2020-12-07T22:31:22.984Z /service - POST RESPONSE - 200
+2020-12-07T22:31:22.985Z /services- GET RESPONSE - 200
+2020-12-07T22:31:25.142Z /services- GET RESPONSE - 200
+2020-12-07T22:31:25.849Z /service - POST RESPONSE - 200
+2020-12-07T22:31:30.000Z /services- GET RESPONSE - 200
+2020-12-07T22:31:30.023Z /service - POST RESPONSE - 200
+2020-12-07T22:31:30.868Z /services- GET RESPONSE - 200
+2020-12-07T22:31:34.115Z http://localhost:3002 Controller REMOVED
+2020-12-07T22:31:34.115Z Server status has expired - Controller http://localhost:3002
+2020-12-07T22:31:34.115Z Fetching status from - Controller http://localhost:3002
+2020-12-07T22:31:34.115Z HTTP POST  http://localhost:3002/status
+2020-12-07T22:31:34.116Z HTTP GET http://localhost:3002/status
+2020-12-07T22:31:34.116Z Server status updated - Controller http://localhost:3002
+2020-12-07T22:31:34.116Z /service - POST RESPONSE - 200
+2020-12-07T22:31:34.118Z /services- GET RESPONSE - 200
+2020-12-07T22:31:34.123Z SERVER STATUS: 200
+2020-12-07T22:31:37.994Z http://localhost:3001 Controller REMOVED
+2020-12-07T22:31:37.994Z Server status has expired - Controller http://localhost:3001
+2020-12-07T22:31:37.995Z Fetching status from - Controller http://localhost:3001
+2020-12-07T22:31:37.995Z HTTP POST  http://localhost:3001/status
+2020-12-07T22:31:37.996Z HTTP GET http://localhost:3001/status
+2020-12-07T22:31:37.996Z Server status updated - Controller http://localhost:3001
+2020-12-07T22:31:37.996Z /service - POST RESPONSE - 200
+2020-12-07T22:31:37.998Z /services- GET RESPONSE - 200
+2020-12-07T22:31:38.022Z SERVER STATUS: 200
+2020-12-07T22:31:40.851Z http://localhost:3003 Model REMOVED
+2020-12-07T22:31:40.851Z Server status has expired - Model http://localhost:3003
+2020-12-07T22:31:40.851Z Fetching status from - Model http://localhost:3003
+2020-12-07T22:31:40.852Z HTTP POST  http://localhost:3003/status
+2020-12-07T22:31:40.852Z HTTP GET http://localhost:3003/status
+2020-12-07T22:31:40.853Z Server status updated - Model http://localhost:3003
+2020-12-07T22:31:40.853Z /service - POST RESPONSE - 200
+2020-12-07T22:31:40.858Z SERVER STATUS: 200
+2020-12-07T22:31:45.000Z /services- GET RESPONSE - 200
+2020-12-07T22:31:45.872Z http://localhost:3000 View REMOVED
+2020-12-07T22:31:45.872Z Server status has expired - View http://localhost:3000
+2020-12-07T22:31:45.872Z Fetching status from - View http://localhost:3000
+2020-12-07T22:31:45.872Z HTTP POST  http://localhost:3000/status
+2020-12-07T22:31:45.873Z HTTP GET http://localhost:3000/status
+2020-12-07T22:31:45.873Z Server status updated - View http://localhost:3000
+2020-12-07T22:31:45.874Z /services- GET RESPONSE - 200
+2020-12-07T22:31:45.882Z SERVER STATUS: 200
+2020-12-07T22:31:49.115Z /service - POST RESPONSE - 200
+2020-12-07T22:31:49.117Z /services- GET RESPONSE - 200
+2020-12-07T22:31:53.001Z /service - POST RESPONSE - 200
+2020-12-07T22:31:53.001Z /services- GET RESPONSE - 200
+2020-12-07T22:31:55.852Z /service - POST RESPONSE - 200
+2020-12-07T22:32:00.006Z /services- GET RESPONSE - 200
+2020-12-07T22:32:00.877Z /services- GET RESPONSE - 200
+2020-12-07T22:32:04.115Z http://localhost:3000 View REMOVED
+2020-12-07T22:32:04.115Z Server status has expired - View http://localhost:3000
+2020-12-07T22:32:04.115Z Fetching status from - View http://localhost:3000
+2020-12-07T22:32:04.115Z HTTP POST  http://localhost:3000/status
+2020-12-07T22:32:04.117Z HTTP GET http://localhost:3000/status
+2020-12-07T22:32:04.117Z Server status updated - View http://localhost:3000
+2020-12-07T22:32:04.117Z http://localhost:3002 Controller REMOVED
+2020-12-07T22:32:04.117Z Server status has expired - Controller http://localhost:3002
+2020-12-07T22:32:04.117Z Fetching status from - Controller http://localhost:3002
+2020-12-07T22:32:04.117Z HTTP POST  http://localhost:3002/status
+2020-12-07T22:32:04.118Z HTTP GET http://localhost:3002/status
+2020-12-07T22:32:04.119Z Server status updated - Controller http://localhost:3002
+2020-12-07T22:32:04.119Z /service - POST RESPONSE - 200
+2020-12-07T22:32:04.121Z /services- GET RESPONSE - 200
+2020-12-07T22:32:04.125Z SERVER STATUS: 200
+2020-12-07T22:32:04.129Z SERVER STATUS: 200
+2020-12-07T22:32:08.016Z http://localhost:3001 Controller REMOVED
+2020-12-07T22:32:08.016Z Server status has expired - Controller http://localhost:3001
+2020-12-07T22:32:08.016Z Fetching status from - Controller http://localhost:3001
+2020-12-07T22:32:08.016Z HTTP POST  http://localhost:3001/status
+2020-12-07T22:32:08.016Z HTTP GET http://localhost:3001/status
+2020-12-07T22:32:08.016Z Server status updated - Controller http://localhost:3001
+2020-12-07T22:32:08.016Z /service - POST RESPONSE - 200
+2020-12-07T22:32:08.017Z /services- GET RESPONSE - 200
+2020-12-07T22:32:08.018Z SERVER STATUS: 200
+2020-12-07T22:32:10.853Z http://localhost:3003 Model REMOVED
+2020-12-07T22:32:10.853Z Server status has expired - Model http://localhost:3003
+2020-12-07T22:32:10.853Z Fetching status from - Model http://localhost:3003
+2020-12-07T22:32:10.854Z HTTP POST  http://localhost:3003/status
+2020-12-07T22:32:10.854Z HTTP GET http://localhost:3003/status
+2020-12-07T22:32:10.855Z Server status updated - Model http://localhost:3003
+2020-12-07T22:32:10.855Z /service - POST RESPONSE - 200
+2020-12-07T22:32:10.860Z SERVER STATUS: 200
+2020-12-07T22:32:15.000Z /services- GET RESPONSE - 200
+2020-12-07T22:32:15.880Z /services- GET RESPONSE - 200

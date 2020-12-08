@@ -1,0 +1,15 @@
+start in this order
+
+only to files
+service-registry: node serviceregistry.js 3005 &> logs/ds-service-registry.txt
+controller1: node controller.js 3001 &> logs/ds-controller-1.txt
+controller2: node controller.js 3001 &> logs/ds-controller-2.txt
+model: node model.js 3003 &> logs/ds-model.txt
+view: cd client npm start, port 3000
+
+to files and terminal
+service-registry: node serviceregistry.js 3005 | tee logs/ds-service-registry.txt
+controller1: node controller.js 3001 | tee logs/ds-controller-1.txt
+controller2: node controller.js 3002 | tee logs/ds-controller-2.txt
+model: node model.js 3003 | tee logs/ds-model.txt
+view: cd client npm start, port 3000
